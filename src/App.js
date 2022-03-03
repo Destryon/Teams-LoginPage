@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from "axios";
 import { Form, Icon, Input, Button, Checkbox, message } from "antd";
-import loginImg from './login.png'
+import loginImg from './logo.png'
 const FormItem = Form.Item;
 
 class NormalLoginForm extends Component {
@@ -77,7 +77,7 @@ class NormalLoginForm extends Component {
       <div className={"lContainer"+(this.isLoggedIn() ? ' hidden' : ' ')}>
       <div className="lItem">
           <div className="loginImage">
-            <img src={loginImg} width="300" style={{position: 'relative'}} alt="login"/>
+            <img src={loginImg} width="280" height="250"  style={{position: 'relative'}} alt="login"/>
           </div>
           <div className="loginForm">
             <h2>Login</h2>
@@ -120,7 +120,7 @@ class NormalLoginForm extends Component {
           </div>
       </div>
       <div className="footer">
-        <a href="" target="_blank" rel="noopener noreferrer" className="footerLink">Powered by React</a>
+        <a href="" target="_blank" rel="noopener noreferrer" className="footerLink">Powered by Code Immortals</a>
       </div>
       </div>
       </div>
