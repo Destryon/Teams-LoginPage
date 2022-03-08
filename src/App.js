@@ -112,6 +112,7 @@ class NormalLoginForm extends Component {
                   type="primary"
                   htmlType="submit"
                   className="login-form-button"
+                 onclick="teams.js"
                 >
                   Log in
                 </Button>
